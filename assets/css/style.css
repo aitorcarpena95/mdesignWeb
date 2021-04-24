@@ -4,13 +4,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; 
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 a {
@@ -1076,10 +1069,6 @@ section {
 /*--------------------------------------------------------------
 # Scrollbar
 --------------------------------------------------------------*/
-
-html {
-  overflow: auto;
-}
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
