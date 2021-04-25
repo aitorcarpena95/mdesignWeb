@@ -416,13 +416,12 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgb(4 11 20 / 76%);
   transition: 0.3s;
   width: 80%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(4 11 20 / 76%);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
