@@ -418,6 +418,7 @@ section {
   text-align: center;
   transition: 0.3s;
   width: 80%;
+  text-shadow: -1px -1px 11px black;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
