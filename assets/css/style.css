@@ -776,3 +776,32 @@ section {
 ::-webkit-scrollbar-thumb:window-inactive {
 background: rgba(12, 84, 173, 0.4); 
 }
+
+/*--------------------------------------------------------------
+# Back button
+--------------------------------------------------------------*/
+.back {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back:hover {
+  background: #2eafec;
+  color: #fff;
+}
+
